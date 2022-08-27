@@ -1,0 +1,109 @@
+:root{
+    --vermelha: #E50914;
+    --preta: #141414;
+}
+* {
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+}
+/*Elementos base*/
+body{
+    background-color: var(--preta);
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    color: var(--vermelha);
+    font-family: 'Arial Black';
+    font-size: 40px;
+    font-weight: bolder;
+}
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: #fff;
+}
+/*Filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(.665,.235,.265,.8),rgba(.665,.235,.265,.8)),
+    url('../img/pocoyoplay.gif');
+    height: 400px;
+    background-size:cover;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: flex-start;
+}
+.container {
+    margin: 20px;
+}
+.filme-principal .container{
+    width: 70%;
+
+}
+.filme-principal .descricao{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.titulo{
+    margin-top: 5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+/**links**/
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: inherit;
+}
+/**Botões**/
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+    text-decoration: none;
+    align-items: flex;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+    font-weight:bolder;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+.box-film {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrossel {
+    margin-top: 5px;
+}

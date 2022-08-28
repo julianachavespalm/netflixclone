@@ -1,4 +1,1 @@
-# Proposta: Desafio "Recriando a Interface do Netflix".
-Professor: Felipe Aguiar
-Autora: Juliana Chaves Palm
-<a href="https://julianachavespalm.github.io/projetos/Netflix/index.html">Recriando a interface do Netflix</a>
+<h1>Proposta: Desafio "Recriando a Interface do <a href="https://julianachavespalm.github.io/netflixclone/">Netflix"</h1><h2>Professor: Felipe Aguiar</h2><h2>Autora: Juliana Chaves Palm</h2>Recriando a interface do Netflix</a>

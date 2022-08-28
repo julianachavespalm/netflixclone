@@ -37,7 +37,7 @@ header nav a:hover{
 .filme-principal{
     font-size: 16px;
     background: linear-gradient(rgba(.665,.235,.265,.8),rgba(.665,.235,.265,.8)),
-    url('..../img/galinhapintadinhacss.jpg');
+    url('../img/galinhapintadinhacss.jpg');
     height: 400px;
     background-size:cover;
     background-position-x: center;
